@@ -1,0 +1,56 @@
+body {
+    margin: 0px;
+    font-size: 20pt;
+    font-family: 'Unica One';
+}
+
+.return a{
+    color: black;
+    text-align: left;
+    padding-left: 1cm;
+}
+
+.return a{
+    text-decoration: none;
+}
+
+.return a:hover {
+    color: grey;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: black;
+    background-color: white;
+    padding: 1cm;
+}
+
+.project_table {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+
+.project_table a {
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.project_table a:hover {
+    display: flex;
+    flex-direction: column;
+    color: gray;
+}
+
+.project_table p {
+    text-align: center;
+}
+
+.image{
+  border-radius: 5%;
+}
