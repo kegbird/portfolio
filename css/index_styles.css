@@ -1,51 +1,39 @@
 body {
   margin: 0px;
+  font-size: 20pt;
   font-family: 'Unica One';
 }
 
-.grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-}
-
-.left_column {
+.index_table {
+  padding: 1cm;
+  display: flex;
+  flex-direction: row;
   text-align: center;
-  font-size: 30px;
-  background-color: white;
+  align-items: center;
+  color: black;
 }
 
-.left_column h1
-{
-  margin-bottom: 0;
+.index_table div {
+  flex: 1;
 }
 
-.left_column h2
-{
-  margin-top: 0;
-}
-
-.profile_picture {
-  border-radius: 50%;
-  border: black 20px solid;
-}
-
-div a {
-  color: white;
-}
-
-div a:hover {
-  color: grey;
-}
-
-.right_column {
-  color: white;
+.index_table a {
+  font-size: 30pt;
+  color: black;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  background-color: black;
+  padding: 0.5cm;
 }
 
-li {
-  font-size: 50px;
+.index_table a:hover {
+  font-size: 30pt;
+  display: flex;
+  flex-direction: column;
+  color: gray;
 }
+
+.index_table img {
+  border-radius: 50%;
+  border: black 10px solid;
+}
+
