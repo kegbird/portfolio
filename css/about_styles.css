@@ -1,52 +1,44 @@
 body {
-    margin: 0px;
-    font-size: 20pt;
+    width: 745px;
+	margin: auto;
+	padding: 20px;
     font-family: 'Unica One';
-}
-
-.return a{
-    color: black;
-    text-align: left;
-    padding-left: 1cm;
-}
-
-.return a{
-    text-decoration: none;
-}
-
-.return a:hover {
-    color: grey;
-}
-
-.header {
-    display: flex;
-    flex-direction: column;
     text-align: center;
-    color: black;
-    background-color: white;
-    padding: 1cm;
+    align-items: center;
+    font-size: 20pt;
 }
 
-.header p {
+div.centered
+{
+    text-align: center;
+}
+
+div.centered table 
+{
+    margin: 0 auto; 
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+div.centered td
+{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+a {
+  color: black;
+}
+
+a:hover {
+  color: gray;
+}
+
+p {
     text-align: justify;
 }
 
-.about_table {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    color: white;
-    background-color: black;
-}
-
-.row {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    color: white;
-    background-color: black;
-}
-
-.row div {
-    padding: 0.5cm;
+footer {
+  font-size: 10pt;
+  text-align: left;
 }

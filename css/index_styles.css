@@ -1,52 +1,32 @@
 body {
-  margin: auto;
-  font-size: 20pt;
+	width: 745px;
+	margin: auto;
+	padding: 20px;
   font-family: 'Unica One';
-}
-
-.grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-}
-
-.left_column {
   text-align: center;
-  font-size: 30px;
-  background-color: white;
+  font-size: 20pt;
 }
 
-.left_column h1
-{
-  margin-bottom: 0;
+a {
+  color: black;
 }
 
-.left_column h2
-{
-  margin-top: 0;
+a:hover {
+  color: gray;
+}
+
+nav {
+  padding-bottom: 1cm;
+}
+
+footer {
+  font-size: 10pt;
+  text-align: left;
 }
 
 .profile_picture {
+  max-width: 100%;
+  height: auto;
   border-radius: 50%;
-  border: black 20px solid;
-}
-
-div a {
-  color: white;
-}
-
-div a:hover {
-  color: grey;
-}
-
-.right_column {
-  color: white;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  background-color: black;
-}
-
-li {
-  font-size: 50px;
+  border: black 10px solid;
 }
