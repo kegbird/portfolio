@@ -1,56 +1,30 @@
 body {
-    margin: 0px;
-    font-size: 20pt;
-    font-family: 'Unica One';
+	width: 745px;
+	margin: auto;
+	padding: 20px;
+  font-family: 'Unica One';
+  text-align: center;
+  font-size: 20pt;
 }
 
-.return a{
+p {
+    text-align: justify;
+}
+
+a {
     color: black;
-    text-align: left;
-    padding-left: 1cm;
 }
-
-.return a{
-    text-decoration: none;
-}
-
-.return a:hover {
-    color: grey;
-}
-
-.header {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    color: black;
-    background-color: white;
-    padding: 1cm;
-}
-
-.project_table {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    color: white;
-    background-color: black;
-}
-
-.project_table a {
-    display: flex;
-    flex-direction: column;
-    color: white;
-}
-
-.project_table a:hover {
-    display: flex;
-    flex-direction: column;
+  
+a:hover {
     color: gray;
 }
 
-.project_table p {
-    text-align: center;
+.image{
+    width: 70%;
+    border-radius: 10%;
 }
 
-.image{
-  border-radius: 5%;
-}
+footer {
+    font-size: 10pt;
+    text-align: left;
+  }

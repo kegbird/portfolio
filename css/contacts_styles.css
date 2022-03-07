@@ -1,45 +1,21 @@
 body {
-    margin: 0px;
-    font-size: 20pt;
+    width: 745px;
+    margin: auto;
+    padding: 20px;
     font-family: 'Unica One';
+    text-align: center;
+    font-size: 20pt;
 }
 
-.return a{
+a {
     color: black;
+}
+
+a:hover {
+    color: gray;
+}
+
+footer {
+    font-size: 10pt;
     text-align: left;
-    padding-left: 1cm;
-}
-
-.return a{
-    text-decoration: none;
-}
-
-.return a:hover {
-    color: grey;
-}
-
-.header {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    color: black;
-    background-color: white;
-    padding: 1cm;
-}
-
-.contacts_table {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    color: white;
-    background-color: black;
-}
-
-.contacts_table a{
-    color: white;
-}
-
-.contacts_table a:hover
-{
-    color: grey;
 }
