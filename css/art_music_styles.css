@@ -20,9 +20,7 @@ footer {
   text-align: left;
 }
 
-.profile_picture {
-  max-width: 100%;
-  height: auto;
-  border-radius: 50%;
-  border: black 10px solid;
+.art {
+  display: flex;
+  flex-direction: column;
 }
