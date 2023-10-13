@@ -7,6 +7,10 @@ body {
     font-size: 20pt;
 }
 
+nav {
+    padding-bottom: 1cm;
+}  
+
 a {
     color: black;
 }
